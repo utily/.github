@@ -55,7 +55,7 @@ wget https://www.princexml.com/download/prince_14.2-1_ubuntu20.04_amd64.deb
 echo "deb http://security.ubuntu.com/ubuntu impish-security main" | sudo tee /etc/apt/sources.list.d/impish-security.list
 sudo apt update
 sudo apt install libssl1.1
-sudo dpkg -i prince_13.1-1_ubuntu20.04_amd64.deb
+sudo dpkg -i prince_14.2-1_ubuntu20.04_amd64.deb
 ```
 
 # Configuration
