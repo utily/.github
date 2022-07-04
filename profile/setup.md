@@ -87,7 +87,6 @@ npm install -g @typeup/cli
     "diffEditor.ignoreTrimWhitespace": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "window.zoomLevel": 0,
-    "azure.resourceFilter": [],
     "debug.onTaskErrors": "debugAnyway",
     "files.associations": {
         "*.tup": "markdown"
