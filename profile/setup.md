@@ -4,7 +4,7 @@
 # Post Installation
 
 ```
-sudo apt install -y pwgen nmap traceroute git meld gitg curl chromium-browser gnome-tweaks build-essential
+sudo apt install -y pwgen nmap traceroute git meld gitg curl chromium-browser gnome-tweaks build-essential slack
 ```
 
 ## Node
@@ -12,9 +12,6 @@ sudo apt install -y pwgen nmap traceroute git meld gitg curl chromium-browser gn
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
-
-## Slack
-[download](https://slack.com/intl/en-se/downloads/linux)
 
 ## Code
 ```
