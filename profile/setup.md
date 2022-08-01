@@ -17,10 +17,6 @@ sudo apt-get install -y nodejs
 [download](https://slack.com/intl/en-se/downloads/linux)
 
 ## Code
-[download](https://code.visualstudio.com/docs/?dv=linux64_deb)
-
-or
-
 ```
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
