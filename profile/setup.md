@@ -55,7 +55,7 @@ sudo dpkg -i prince_14.3-1_ubuntu22.04_amd64.deb
 git config --global core.editor gedit
 git config --global credential.helper 'cache --timeout=36000'
 git config --global user.name "<Full Name>"
-git config --global user.email "<full.name@issuefab.com>"
+git config --global user.email "<full.name@example.com>"
 ```
 
 ## NPM
@@ -65,7 +65,7 @@ npm config set prefix '~/.npm-global'
 echo "export PATH=~/.npm-global/bin:$PATH" >> ~/.profile
 source ~/.profile
 npm install -g npm-check-updates typescript
-npm install -g @typeup/cli
+npm install -g @typeup/cli @cloudflare/wrangler
 ```
 ## VS Code
 ```
@@ -91,8 +91,6 @@ Install context menu entry in nautilus
 ```
 wget -qO- https://raw.githubusercontent.com/cra0zy/code-nautilus/master/install.sh | bash
 ```
-
-## Email
 
 # Repositories
 ```
