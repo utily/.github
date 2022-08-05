@@ -70,21 +70,22 @@ npm install -g @typeup/cli @cloudflare/wrangler
 ## VS Code
 ```
 {
-    "git.confirmSync": false,
-    "git.autofetch": true,
-    "editor.minimap.enabled": false,
-    "window.titleBarStyle": "custom",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "window.zoomLevel": 0,
-    "debug.onTaskErrors": "debugAnyway",
-    "files.associations": {
-        "*.tup": "markdown"
-    },
-		"workbench.colorTheme": "Default Dark+",
-    "workbench.panel.defaultLocation": "right",
-		"editor.multiCursorModifier": "ctrlCmd",
-		"javascript.updateImportsOnFileMove.enabled": "always"
+	"diffEditor.ignoreTrimWhitespace": false,
+	"git.confirmSync": false,
+	"git.autofetch": true,
+	"editor.minimap.enabled": false,
+	"window.titleBarStyle": "custom",
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"window.zoomLevel": 0,
+	"debug.onTaskErrors": "debugAnyway",
+	"files.associations": {
+		"*.tup": "markdown"
+	},
+	"workbench.colorTheme": "Default Dark+",
+	"workbench.panel.defaultLocation": "right",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"javascript.updateImportsOnFileMove.enabled": "always"
 }
 ```
 Install context menu entry in nautilus
