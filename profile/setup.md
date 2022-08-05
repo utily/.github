@@ -96,7 +96,7 @@ wget -qO- https://raw.githubusercontent.com/cra0zy/code-nautilus/master/install.
 ```
 mkdir -p ~/versioned/utily
 cd ~/versioned/utily
-for i in flagly transactly langly tidily selectively smoothly isoly library-template worker-template mendly cloudly-router cloudly-http cloudly-rest cloudly-formdata authly paramly uply presistly gracely; do 
+for i in flagly transactly langly tidily selectively smoothly isoly library-template worker-template mendly cloudly-router cloudly-http cloudly-rest cloudly-storage cloudly-formdata authly paramly uply presistly gracely; do 
 git clone https://github.com/utily/$i
 cd $i
 npm install
