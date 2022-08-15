@@ -4,7 +4,8 @@
 # Post Installation
 
 ```
-sudo apt install -y pwgen nmap traceroute git meld gitg curl chromium-browser gnome-tweaks build-essential slack
+sudo apt install -y pwgen nmap traceroute git meld gitg curl chromium-browser gnome-tweaks build-essential
+sudo snap install slack --classic
 ```
 
 ## Node
