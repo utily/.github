@@ -93,6 +93,10 @@ Install context menu entry in nautilus
 ```
 wget -qO- https://raw.githubusercontent.com/cra0zy/code-nautilus/master/install.sh | bash
 ```
+Enable week numbers
+```
+gsettings set org.gnome.desktop.calendar show-weekdate true
+```
 
 # Repositories
 ```
