@@ -125,7 +125,7 @@ and uncomment this line:
 ```
 #WaylandEnable=false
 ```
-Save and exit file, reboot and check with first command should display
+Save and exit file, reboot and check with first command, it should display:
 ```
 x11
 ``` 
