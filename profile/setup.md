@@ -111,21 +111,12 @@ done
 ```
 
 ## Sharing Screen
-Sharing screen is disabled if your build uses "wayland". To circumvent this do the following:
-Open terminal
-Check if system uses wayland:
+Sharing screen is disabled if your build uses "wayland" which is indicated in `$XDG_SESSION_TYPE`. To switch to X11:
 ```
-echo $XDG_SESSION_TYPE
-```
-If the command outputs "wayland "continue with
-```
-sudo nano /etc/gdm3/custom.conf
+sudo gedit /etc/gdm3/custom.conf
 ```
 and uncomment this line:
 ```
 #WaylandEnable=false
 ```
-Save and exit file, reboot and check with first command, it should display:
-```
-x11
-``` 
+Reboot required.
