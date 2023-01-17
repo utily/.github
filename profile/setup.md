@@ -66,7 +66,7 @@ npm config set prefix '~/.npm-global'
 echo "export PATH=~/.npm-global/bin:$PATH" >> ~/.profile
 source ~/.profile
 npm install -g npm-check-updates typescript
-npm install -g @typeup/cli @cloudflare/wrangler
+npm install -g @typeup/cli wrangler
 ```
 ## VS Code
 ```
