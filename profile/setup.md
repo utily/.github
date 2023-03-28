@@ -67,6 +67,7 @@ echo "export PATH=~/.npm-global/bin:$PATH" >> ~/.profile
 source ~/.profile
 npm install -g npm-check-updates typescript
 npm install -g @typeup/cli wrangler
+npm completion >> ~/.bashrc
 ```
 ## VS Code
 ```
