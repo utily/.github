@@ -77,7 +77,7 @@ sudo apt install cups-pdf
 	"git.autofetch": true,
 	"editor.minimap.enabled": false,
 	"window.titleBarStyle": "custom",
-	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"terminal.integrated.enableMultiLinePasteWarning": "never",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"window.zoomLevel": 0,
 	"debug.onTaskErrors": "debugAnyway",
