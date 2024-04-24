@@ -102,13 +102,18 @@ gsettings set org.gnome.desktop.calendar show-weekdate true
 # Repositories
 ```
 mkdir -p ~/versioned/utily
-cd ~/versioned/utily
-for i in flagly transactly langly tidily selectively smoothly isoly library-template worker-template mendly cloudly-router cloudly-http cloudly-rest cloudly-storage cloudly-formdata authly paramly uply persistly gracely; do 
-git clone https://github.com/utily/$i
-cd $i
-npm install
-cd ..
+pushd ~/versioned/utily
+for i in flagly transactly langly tidily selectively smoothly isoly library-template worker-template mendly cloudly-router cloudly-http cloudly-rest cloudly-storage cloudly-formdata authly paramly uply persistly gracely
+do 
+  git clone https://github.com/utily/$i
 done
+for i in *
+do
+  pushd $i
+  npm install
+  popd
+done
+popd
 ```
 
 ## Sharing Screen
