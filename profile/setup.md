@@ -41,12 +41,14 @@ sudo apt-get install insomnia
 ```
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+rm google-chrome-stable_current_amd64.deb
 ```
 
 ## Prince XML
 ```
-wget https://www.princexml.com/download/prince_14.3-1_ubuntu22.04_amd64.deb
-sudo dpkg -i prince_14.3-1_ubuntu22.04_amd64.deb
+wget https://www.princexml.com/download/prince_20240501-1_ubuntu24.04_amd64.deb
+sudo dpkg -i prince_20240501-1_ubuntu24.04_amd64.deb
+rm prince_20240501-1_ubuntu24.04_amd64.deb
 ```
 
 # Configuration
@@ -67,7 +69,7 @@ echo "export PATH=~/.npm-global/bin:$PATH" >> ~/.profile
 source ~/.profile
 npm install -g npm-check-updates typescript
 npm install -g @typeup/cli wrangler
-sudo apt install cups-pdf
+sudo apt install printer-driver-cups-pdf
 ```
 ## VS Code
 ```
@@ -115,14 +117,3 @@ do
 done
 popd
 ```
-
-## Sharing Screen
-Sharing screen is disabled if your build uses "wayland" which is indicated in `$XDG_SESSION_TYPE`. To switch to X11:
-```
-sudo gedit /etc/gdm3/custom.conf
-```
-and uncomment this line:
-```
-#WaylandEnable=false
-```
-Reboot required.
