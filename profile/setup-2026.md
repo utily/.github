@@ -80,16 +80,15 @@ sudo apt install printer-driver-cups-pdf
 	"editor.minimap.enabled": false,
 	"window.titleBarStyle": "custom",
 	"terminal.integrated.enableMultiLinePasteWarning": "never",
-	"typescript.updateImportsOnFileMove.enabled": "always",
+	"js/ts.updateImportsOnFileMove.enabled": "always",
 	"window.zoomLevel": 0,
 	"debug.onTaskErrors": "debugAnyway",
 	"files.associations": {
 		"*.tup": "markdown"
 	},
-	"workbench.colorTheme": "Default Dark+",
+	"workbench.colorTheme": "Dark+",
 	"workbench.panel.defaultLocation": "right",
-	"editor.multiCursorModifier": "ctrlCmd",
-	"javascript.updateImportsOnFileMove.enabled": "always"
+	"editor.multiCursorModifier": "ctrlCmd"
 }
 ```
 Install context menu entry in nautilus
