@@ -1,4 +1,4 @@
-# Setup Ubuntu 26.04
+# Setup Ubuntu 22.04
 
 
 # Post Installation
