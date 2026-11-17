@@ -16,26 +16,12 @@ sudo apt-get install -y nodejs
 
 ## Code
 ```
-wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
-sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
-rm -f packages.microsoft.gpg
-```
-```
-sudo apt install apt-transport-https
-sudo apt update
-sudo apt install code # or code-insiders
+sudo snap install --classic code
 ```
 
 ## Insomnia
 ```
-# Add to sources
-echo "deb [trusted=yes arch=amd64] https://download.konghq.com/insomnia-ubuntu/ default all" \
-    | sudo tee -a /etc/apt/sources.list.d/insomnia.list
-
-# Refresh repository sources and install Insomnia
-sudo apt-get update
-sudo apt-get install insomnia
+sudo snap install --classic insomnia
 ```
 ## Chrome
 ```
@@ -48,6 +34,7 @@ rm google-chrome-stable_current_amd64.deb
 ```
 wget https://www.princexml.com/download/prince_17-1_ubuntu26.04_amd64.deb
 sudo dpkg -i prince_17-1_ubuntu26.04_amd64.deb
+sudo apt --fix-broken install
 rm prince_17-1_ubuntu26.04_amd64.deb
 ```
 
