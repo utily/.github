@@ -61,6 +61,8 @@ sudo apt install printer-driver-cups-pdf
 ## VS Code
 ```
 {
+	"editor.tabSize": 2,
+	"editor.insertSpaces": false,
 	"diffEditor.ignoreTrimWhitespace": false,
 	"git.confirmSync": false,
 	"git.autofetch": true,
@@ -75,7 +77,10 @@ sudo apt install printer-driver-cups-pdf
 	},
 	"workbench.colorTheme": "Dark+",
 	"workbench.panel.defaultLocation": "right",
-	"editor.multiCursorModifier": "ctrlCmd"
+	"editor.multiCursorModifier": "ctrlCmd",
+	"chat.agentSkillsLocations": {
+		"~/versioned/utily/tools/ai/skills": true
+	}
 }
 ```
 Install context menu entry in nautilus
