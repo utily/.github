@@ -81,7 +81,9 @@ sudo apt install printer-driver-cups-pdf
 	"chat.agentSkillsLocations": {
 		"~/versioned/utily/tools/ai/skills": true
 	},
-	"files.autoSave": "afterDelay"
+	"files.autoSave": "afterDelay",
+	"chat.viewSessions.orientation": "stacked",
+	"workbench.activityBar.location": "top"
 }
 ```
 Install context menu entry in nautilus
