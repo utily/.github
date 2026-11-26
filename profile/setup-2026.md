@@ -80,7 +80,8 @@ sudo apt install printer-driver-cups-pdf
 	"editor.multiCursorModifier": "ctrlCmd",
 	"chat.agentSkillsLocations": {
 		"~/versioned/utily/tools/ai/skills": true
-	}
+	},
+	"files.autoSave": "afterDelay"
 }
 ```
 Install context menu entry in nautilus
